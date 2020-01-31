@@ -1,7 +1,7 @@
 javascript: 
 // consoleを出してコメントのURLを受け付ける
 
-// ループ
+// ループ 
     // More Loadｓを作る
     // 要素がなければBreak
         // More Loadを展開
