@@ -5,6 +5,6 @@ javascript:
     // More Loadｓを作る  
     // 要素がなければBreak 
         // More Loadを展開  
-    // 少し待つ。 
+    // 少し待つ。  
  
 // コメントまで飛ばす  
