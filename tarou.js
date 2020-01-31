@@ -1,4 +1,4 @@
-javascript: 
+javascript:
 // consoleを出してコメントのURLを受け付ける 
 
 // ループ 
