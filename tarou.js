@@ -6,5 +6,5 @@ javascript:
     // 要素がなければBreak 
         // More Loadを展開 
     // 少し待つ。 
-
+ 
 // コメントまで飛ばす 
