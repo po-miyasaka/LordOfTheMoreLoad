@@ -13,5 +13,5 @@ while (true) {
 	sleep(1000);
 };
 
-if (url)document.location.href = url;
+if (url) window.location.href = url;
 
