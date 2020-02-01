@@ -1,11 +1,16 @@
 javascript:
+let url = prompt("任意のコメントURL");
 
-// consoleを出してコメントのURLを受け付ける
+function open() {
+  let moreLoads = document.querySelectorAll('form.pagination-loader-container');
+  moreLoads.forEach(f => f.querySelector('[type="submit"]').click());
+  return moreLoads.length > 0
+};
 
-// ループ
-    // More Loadｓを作る
-    // 要素がなければBreak
-        // More Loadを展開
-    // 少し待つ。
+while (true) {let didMoreLoad = open();
+if (didMoreLoad)break ;
+sleep(100);
+};
 
-// コメントまで飛ばす
+if (url)document.location.href = url;
+
