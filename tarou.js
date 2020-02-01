@@ -1,5 +1,4 @@
 javascript:
-let url = prompt("任意のコメントURL");
 
 function open() {
 	let moreLoads = document.querySelectorAll('form.pagination-loader-container');
@@ -7,11 +6,16 @@ function open() {
 	return moreLoads.length > 0
 };
 
-while (true) {
-	let didMoreLoad = open();
-	if (didMoreLoad)break ;
-	sleep(1000);
+function process() {
+	let url = prompt("任意のコメントURL");
+	while (true) {
+		let didMoreLoad = open();
+		if (didMoreLoad)break ;
+		sleep(1000);
+	};
+	if (url) window.location.href = url;
 };
 
-if (url) window.location.href = url;
+process();
+
 
