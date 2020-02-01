@@ -3,3 +3,7 @@
 
 # TL;DR
 GitHubのMore Loadを開くのがめんどくさいので全部開いてくれるBookMarkLetを作る。
+
+
+### Special Thanks
+@natpenguin
