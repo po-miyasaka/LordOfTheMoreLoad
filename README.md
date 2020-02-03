@@ -4,7 +4,7 @@
 # TL;DR
 GitHubのMore Loadを開くのがめんどくさいので全部開いてくれるBookMarkLetを作る。
 
-# SetUp
+# Setup
 ブックマークレットにtarou.jsの内容をコピペ、登録するだけ
 
 # USAGE
