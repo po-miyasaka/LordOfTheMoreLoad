@@ -2,17 +2,16 @@ javascript:
 
 function openAllPagination() {
 	return new Promise((resolve) => {
-		let paginationID = 0;
 		let pagination = () => {
 			console.log("pagination");
 			let moreLoads = document.querySelectorAll('form.pagination-loader-container');
-			if (moreLoads.length == 0) { 
+			if (moreLoads.length == 0){
 				clearInterval(paginationID); 
 				resolve();
 			};
 			moreLoads.forEach(f => f.querySelector('[type="submit"]').click());
 		};
-		paginationID = setInterval(pagination, 1000);
+		let paginationID = setInterval(pagination, 1000);
 	});
 };
 
