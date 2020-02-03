@@ -14,12 +14,8 @@ function openAllComments() {
 };
 
 function process() {
-	let url = prompt("任意のコメントURL");
-	while (true) {
-		let noMoreLoad = openPagination();
-		if (noMoreLoad) break ;
-		sleep(3000);
-	};
+	let url = prompt("任意のコメントURL(なくてもOK)");
+	openAllPagination();
 	openAllComments();
 	if (url) window.location.href = url;
 };
