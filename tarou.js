@@ -11,13 +11,13 @@ function openAllComments() {
 };
 
 function process() {
-	openAllComments();
 	let url = prompt("任意のコメントURL");
 	while (true) {
 		let noMoreLoad = openPagination();
 		if (noMoreLoad) break ;
 		sleep(3000);
 	};
+	openAllComments();
 	if (url) window.location.href = url;
 };
 
