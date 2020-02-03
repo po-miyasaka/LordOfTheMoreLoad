@@ -7,11 +7,11 @@ function openPagination() {
 };
 
 function openAllComments() {
-	document.querySelectorAll('.js-comment-container').forEach(e => e.setAttribute('open', ''))
-}
+	document.querySelectorAll('.js-comment-container').forEach(e => e.setAttribute('open', ''));
+};
 
 function process() {
-	openAllComments()
+	openAllComments();
 	let url = prompt("任意のコメントURL");
 	while (true) {
 		let noMoreLoad = openPagination();
@@ -22,5 +22,3 @@ function process() {
 };
 
 process();
-
-
