@@ -1,21 +1,28 @@
 javascript:
 
 function openAllPagination() {
-	while (true) {
-		let moreLoads = document.querySelectorAll('form.pagination-loader-container');
-		if (moreLoads.length == 0) break;
-		moreLoads.forEach(f => f.querySelector('[type="submit"]').click());
-		sleep(3000);　// 役に立たないかつクソダサなのでどうにかする
-	};
+	return new Promise((resolve) => {
+		let paginationID = 0;
+		let pagination = () => {
+			console.log("pagination");
+			let moreLoads = document.querySelectorAll('form.pagination-loader-container');
+			if (moreLoads.length == 0) { 
+				clearInterval(paginationID); 
+				resolve();
+			};
+			moreLoads.forEach(f => f.querySelector('[type="submit"]').click());
+		};
+		paginationID = setInterval(pagination, 1000);
+	});
 };
 
 function openAllComments() {
 	document.querySelectorAll('.js-comment-container').forEach(e => e.setAttribute('open', ''));
 };
 
-function process() {
+async function process() {
 	let url = prompt("任意のコメントURL(なくてもOK)");
-	openAllPagination();
+	await openAllPagination();
 	openAllComments();
 	if (url) window.location.href = url;
 };
