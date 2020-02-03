@@ -7,7 +7,7 @@ GitHubのMore Loadを開くのがめんどくさいので全部開いてくれ�
 # Setup
 ブックマークレットにtarou.jsの内容をコピペ、登録するだけ
 
-# USAGE
+# Usage
 ① `Pull Request > Conversation`を表示している時にブックマークレットをTap
 
 ② 目的のコメントのURLを入力して`OK`∪ `Enter`
