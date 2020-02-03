@@ -1,9 +1,12 @@
 javascript:
 
-function openPagination() {
-	let moreLoads = document.querySelectorAll('form.pagination-loader-container');
-	moreLoads.forEach(f => f.querySelector('[type="submit"]').click());
-	return moreLoads.length == 0
+function openAllPagination() {
+	while (true) {
+		let moreLoads = document.querySelectorAll('form.pagination-loader-container');
+		if (moreLoads.length == 0) break;
+		moreLoads.forEach(f => f.querySelector('[type="submit"]').click());
+		sleep(3000);
+	};
 };
 
 function openAllComments() {
