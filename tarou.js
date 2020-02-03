@@ -11,7 +11,7 @@ function openAllComments() {
 };
 
 function process() {
-	openAllComments()
+	openAllComments();
 	let url = prompt("任意のコメントURL");
 	while (true) {
 		let noMoreLoad = openPagination();
