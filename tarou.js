@@ -7,7 +7,7 @@ function openPagination() {
 };
 
 function openAllComments() {
-	document.querySelectorAll('.js-comment-container').forEach(e => e.setAttribute('open', ''))
+	document.querySelectorAll('.js-comment-container').forEach(e => e.setAttribute('open', ''));
 };
 
 function process() {
@@ -22,4 +22,3 @@ function process() {
 };
 
 process();
-
