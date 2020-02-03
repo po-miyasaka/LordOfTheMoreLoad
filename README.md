@@ -11,8 +11,7 @@ GitHubのMore Loadを開くのがめんどくさいので全部開いてくれ�
 ① `Pull Request > Conversation`を表示している時にブックマークレットをTap
 
 ② 目的のコメントのURLを入力して`OK`∪ `Enter`
-　　(指定しなくてもOK)
-　
+　　(指定しなくてもOK)  
 ③ すべてのコメントがOpenされ太郎 ∩ 指定したURLのコメントが表示され太郎
 
 
