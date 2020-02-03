@@ -8,7 +8,7 @@ function openPagination() {
 
 function openAllComments() {
 	document.querySelectorAll('.js-comment-container').forEach(e => e.setAttribute('open', ''))
-}
+};
 
 function process() {
 	openAllComments()
@@ -22,5 +22,4 @@ function process() {
 };
 
 process();
-
 
