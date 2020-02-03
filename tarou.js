@@ -4,7 +4,7 @@ function openAllPagination() {
 	return new Promise((resolve) => {
 		let pagination = () => {
 			let moreLoads = document.querySelectorAll('form.pagination-loader-container');
-			if (moreLoads.length == 0){
+			if (moreLoads.length == 0) {
 				clearInterval(paginationID); 
 				resolve();
 			};
