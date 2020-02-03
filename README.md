@@ -4,6 +4,17 @@
 # TL;DR
 GitHubのMore Loadを開くのがめんどくさいので全部開いてくれるBookMarkLetを作る。
 
+# SetUp
+ブックマークレットにtarou.jsの内容をコピペ、登録するだけ
+
+# USAGE
+① `Pull Request > Conversation`を表示している時にブックマークレットをTap
+
+② 目的のコメントのURLを入力して`OK`∪ `Enter`
+　　(指定しなくてもOK)
+　
+③ すべてのコメントがOpenされ太郎 ∩ 指定したURLのコメントが表示され太郎
+
 
 ### Special Thanks
 [@natpenguin](https://github.com/natpenguin)  
