@@ -5,7 +5,7 @@ function openAllPagination() {
 		let moreLoads = document.querySelectorAll('form.pagination-loader-container');
 		if (moreLoads.length == 0) break;
 		moreLoads.forEach(f => f.querySelector('[type="submit"]').click());
-		sleep(3000);
+		sleep(3000);　// 役に立たないかつクソダサなのでどうにかする
 	};
 };
 
